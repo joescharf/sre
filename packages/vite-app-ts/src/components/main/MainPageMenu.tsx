@@ -32,6 +32,15 @@ export const MainPageMenu: FC<IMainPageMenuProps> = (props) => (
         Hints
       </Link>
     </Menu.Item>
+    <Menu.Item key="/staker">
+      <Link
+        onClick={(): void => {
+          props.setRoute('/staker');
+        }}
+        to="/staker">
+        Staker
+      </Link>
+    </Menu.Item>
     <Menu.Item key="/exampleui">
       <Link
         onClick={(): void => {

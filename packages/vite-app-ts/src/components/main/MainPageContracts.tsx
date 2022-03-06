@@ -39,6 +39,12 @@ export const MainPageContracts: FC<IMainPageContractsProps> = (props) => {
           mainnetAdaptor={props.scaffoldAppProviders.mainnetAdaptor}
           blockExplorer={props.scaffoldAppProviders.targetNetwork.blockExplorer}
         />
+        <GenericContract
+          contractName="Staker"
+          contract={stakerContract}
+          mainnetAdaptor={props.scaffoldAppProviders.mainnetAdaptor}
+          blockExplorer={props.scaffoldAppProviders.targetNetwork.blockExplorer}
+        />
 
         {/* **********
          * ❓ uncomment for a second contract:

@@ -1340,6 +1340,25 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@headlessui/react@npm:^1.5.0":
+  version: 1.5.0
+  resolution: "@headlessui/react@npm:1.5.0"
+  peerDependencies:
+    react: ^16 || ^17 || ^18
+    react-dom: ^16 || ^17 || ^18
+  checksum: e3373dfb73936950d659a87718fb9fdedc599b344b30cb0d8b1ef0a2ec13d6f405c653fa51284236788658840ece82c6a8538a5a5931e595274e9590b2020079
+  languageName: node
+  linkType: hard
+
+"@heroicons/react@npm:^1.0.5":
+  version: 1.0.6
+  resolution: "@heroicons/react@npm:1.0.6"
+  peerDependencies:
+    react: ">= 16"
+  checksum: 372b1eda3ce735ef069777bc96304f70de585ebb71a6d1cedc121bb695f9bca235619112e3ee14e8779e95a03096813cbbe3b755927a54b7580d1ce084fa4096
+  languageName: node
+  linkType: hard
+
 "@humanwhocodes/config-array@npm:^0.9.2":
   version: 0.9.3
   resolution: "@humanwhocodes/config-array@npm:0.9.3"
@@ -1786,11 +1805,13 @@ __metadata:
     "@typechain/ethers-v5": ^9.0.0
     "@typechain/hardhat": ^4.0.0
     "@types/chai": ^4.3.0
+    "@types/chai-as-promised": ^7.1.5
     "@types/mocha": ^9.1.0
     "@types/node": ^16.11.25
     "@typescript-eslint/eslint-plugin": ^5.12.0
     "@typescript-eslint/parser": ^5.12.0
     chai: ^4.3.6
+    chai-as-promised: ^7.1.1
     chalk: ^4.1.2
     dotenv: ^14.3.2
     eslint: ^8.9.0
@@ -1867,6 +1888,8 @@ __metadata:
     "@ethersproject/signing-key": ^5.5.0
     "@ethersproject/solidity": ^5.5.0
     "@ethersproject/units": ^5.5.0
+    "@headlessui/react": ^1.5.0
+    "@heroicons/react": ^1.0.5
     "@maticnetwork/maticjs": ^3.2.3
     "@nomiclabs/hardhat-ethers": ^2.0.5
     "@nomiclabs/hardhat-waffle": ^2.0.2
@@ -1926,6 +1949,7 @@ __metadata:
     fortmatic: ^2.2.1
     history: ^5.2.0
     http-browserify: ^1.7.0
+    humanize-duration-ts: ^2.1.1
     husky: ^7.0.4
     ipfs-http-client: ^54.0.2
     less: ^4.1.2
@@ -2394,6 +2418,15 @@ __metadata:
     "@types/node": "*"
     "@types/responselike": "*"
   checksum: 667d25808dbf46fe104d6f029e0281ff56058d50c7c1b9182774b3e38bb9c1124f56e4c367ba54f92dbde2d1cc573f26eb0e9748710b2822bc0fd1e5498859c6
+  languageName: node
+  linkType: hard
+
+"@types/chai-as-promised@npm:^7.1.5":
+  version: 7.1.5
+  resolution: "@types/chai-as-promised@npm:7.1.5"
+  dependencies:
+    "@types/chai": "*"
+  checksum: 7c1345c6e32513d52d8e562ec173c23161648d6b792046525f18803a9932d7b3ad3dca8f0181e3c529ec42b106099f174e34edeb184d61dc93e32c98b5132fd4
   languageName: node
   linkType: hard
 
@@ -5834,6 +5867,17 @@ __metadata:
   bin:
     cborg: cli.js
   checksum: ce96927254f85ab7aebab20e8bdf7567e7e8267c77687e99d9d468919608f0d9d94c4523526e4b4c4520e642d41af4a63bfc7c07d6b9addcfb18fb907e30f713
+  languageName: node
+  linkType: hard
+
+"chai-as-promised@npm:^7.1.1":
+  version: 7.1.1
+  resolution: "chai-as-promised@npm:7.1.1"
+  dependencies:
+    check-error: ^1.0.2
+  peerDependencies:
+    chai: ">= 2.1.2 < 5"
+  checksum: 7262868a5b51a12af4e432838ddf97a893109266a505808e1868ba63a12de7ee1166e9d43b5c501a190c377c1b11ecb9ff8e093c89f097ad96c397e8ec0f8d6a
   languageName: node
   linkType: hard
 
@@ -11440,6 +11484,13 @@ __metadata:
   version: 2.1.0
   resolution: "human-signals@npm:2.1.0"
   checksum: b87fd89fce72391625271454e70f67fe405277415b48bcc0117ca73d31fa23a4241787afdc8d67f5a116cf37258c052f59ea82daffa72364d61351423848e3b8
+  languageName: node
+  linkType: hard
+
+"humanize-duration-ts@npm:^2.1.1":
+  version: 2.1.1
+  resolution: "humanize-duration-ts@npm:2.1.1"
+  checksum: 4c5f0a5d65055c58792d6ed0a07da11d48f8535c472c791e8144192ce7a3d7d455e3ccd61c2a3a5ed8c1a78a6452d9819c72afaee212aef37077ad7310b7e197
   languageName: node
   linkType: hard
 
