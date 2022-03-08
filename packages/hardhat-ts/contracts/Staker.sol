@@ -15,7 +15,7 @@ contract Staker {
   // IterableMapping.Map private balancesMap;
 
   uint256 public constant threshold = 0.1 ether;
-  uint256 public deadline = block.timestamp + 60 seconds;
+  uint256 public deadline = block.timestamp + 72 hours;
   bool public openForWithdraw = false;
   bool public locked;
 

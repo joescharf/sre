@@ -4,6 +4,3 @@ import { lazier } from 'eth-hooks/helpers';
 // code is in the component file
 
 export const Staker = lazier(() => import('./staker/Staker'), 'Staker');
-export const ExampleUI = lazier(() => import('./exampleui/ExampleUI'), 'ExampleUI');
-export const Subgraph = lazier(() => import('./subgraph/Subgraph'), 'Subgraph');
-export const Hints = lazier(() => import('./hints/Hints'), 'Hints');
