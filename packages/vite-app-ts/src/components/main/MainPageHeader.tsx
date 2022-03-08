@@ -33,7 +33,7 @@ export const MainPageHeader: FC<IMainPageHeaderProps> = (props) => {
   const left = (
     <>
       <div>
-        <PageHeader title="Joe's Scaffold-Eth Quests" subTitle={<span></span>} style={{ cursor: 'pointer' }} />
+        <PageHeader title="Joe's Speed Run Ethereum Quests" subTitle={<span></span>} style={{ cursor: 'pointer' }} />
       </div>
       {props.children}
     </>
