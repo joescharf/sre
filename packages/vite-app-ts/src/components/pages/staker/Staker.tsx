@@ -117,8 +117,9 @@ export const Staker: FC<StakerProps> = (props) => {
       await tx(stakerContract?.withdraw(ethersContext.account ?? ''));
     }
   };
-  const timeLeftHumanized = humanizer.humanize(timeLeft?.toNumber() ?? 0 * 1000);
-  console.log(timeLeftHumanized);
+  const timeLeftNum = timeLeft?.toNumber() ?? 0;
+  const timeLeftHumanized = humanizer.humanize(timeLeftNum * 1000);
+
   const stats = [
     { name: 'Funds Raised', stat: formatEther(totalStaked ?? '0') },
     { name: 'Funding Goal ', stat: formatEther(threshold ?? 0) },
